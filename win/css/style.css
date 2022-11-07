@@ -1,0 +1,29 @@
+#countdown {
+    color: rgba(49, 18, 142, 0.307);
+    padding: 10px;
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loader-con {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(75, 34, 34);
+}
+
+.list-group-item {
+    background: transparent;
+}
+
+img {
+    max-width: 100%;
+}
